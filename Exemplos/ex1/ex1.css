@@ -1,0 +1,57 @@
+body {
+    background-image: url("notebook.jpg");
+    font: normal 15pt Trebuchet;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font: normal 15pt Arial;
+}
+
+section {
+    background-color: antiquewhite;
+    font-style: normal 15pt Arial;
+    border-radius: 30px; /* arredondamento da borda da section */
+    padding: 30px; /* espaço entre o início da section e o parágrafo */
+    width: 500px; /* largura da section */
+    margin: auto; /* posicionamento da section(esquerda, centralizado, direita, etc) */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322); /* sombreamento externo da section. Os números são respectivamente: deslocamento horizontal, deslocamento vertical, espalhamento */
+    text-align: center;
+}
+
+.box {
+    float: center;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.bg {
+    background-image: url("Eu.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    width: 500px;
+    height: 40px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-style: italic 15pt Arial;
+}
+
